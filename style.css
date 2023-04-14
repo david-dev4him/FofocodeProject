@@ -11,13 +11,18 @@ ul {
 
 body {
   /* background-color: rgb(221, 221, 221); */
-  background-color: white;
+  background-color: #e8e8f3f7;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/*********
+* HEADER *
+**********/
+
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  text-transform: uppercase;
   align-items: center;
   width: 100%;
   height: 50px;
@@ -132,18 +137,42 @@ body {
 
 }
 
+.page_title{
+display: flex;
+justify-content: baseline;
+
+}
+
 .page_title a {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
   width: 100%;
     height: 55px;
-    background-color: rgb(245, 245, 247);
+    background-color: #e8e8f3f7;
     font-family: Poppins, sans-serif;
     font-weight: bold;
     font-size: 28px;
-    color:#b75c822b;
+    color:#6446fc39;
     overflow: hidden;
+    letter-spacing: 20px;
+}
+
+/*************
+* MAIN INDEX *
+**************/
+
+.main_index{
+
+  width: 892px;
+  height: 3616.16px;
+}
+
+.img_index_01 img {
+  width: 275px;
+  height: 204px;
+  border-radius: 8px;
 }
 
 /**************************
@@ -178,34 +207,9 @@ body {
 .logo_fofocode {
   display: flex;
   justify-content: right;
-  height: 260px;
+  height: 280px;
   padding-left: 4px; 
 }
-
-.logoIndex{
- 
-  position: relative;
-  animation: transicao infinite 5s;
-  opacity: 0.6;
-   
- }
- 
- @keyframes transicao {
-   25% {
-     opacity: 2;
-     transform: scale(1.1,1.1);
-   }
-   50% {
-     opacity: 1;
-   }
-   
- }
-
-.logo_fofocode:hover {
- opacity: .5;
- 
-}
-
 
 .more_news_business{
   text-decoration: none;
@@ -213,21 +217,55 @@ body {
 }
 
 /******************
+* Images Articles *
+*******************/
+
+.img_materia_01 img {
+  width: 855px;
+  height: 484px;
+  border-radius: 8px;
+}
+
+.insta_article{
+  display: flex;
+  justify-content: center;
+}
+
+/******************
 * TEXT ADJUSTMENT *
 *******************/
+.main_article{
+  width: 892px;
+  height: 3616.16px;
+  font: 16px;
+  text-size-adjust: 100%;
+  display: block;
+  margin: 0 20px;
+
+}
+
+
 .index_h1{
+  width: 876px;
+  height: 155px;
   font-size: 44px;
   font-weight: 700;
   font-family: sans-serif;
   line-height: 46px;
+  border-bottom: 1px solid #E5E5E5;
+  margin: .67em 0;
   }
 
 .text-index{
   font-size: 20px;
   font-weight: 300;
-  margin-left: 40px;
+  margin-left: 10px;
   margin-right: 40px;
   text-align: justify;
+}
+
+.title_h3{
+  font-size: 40px;
 }
 
 
@@ -235,53 +273,122 @@ body {
 * SIDE BAR *
 ************/
 
-/* .post__sidebar {
-  display: flex;
-  flex-direction: flex;
-  height: 7782.09px;
-  margin-left: 72px;
-  padding-bottom: 48px;
-  position: relative;
-  text-size-adjust: 100%;
-  width: 200px;
-  line-height: 18.4px;
-  color: #b91c5d;
+.post__sidebar {
 
+  margin: 0px 0px 0px 72px;
+  padding: 0px 8px 48px;
+  position: absolute;
+  text-align: start;
+  text-size-adjust: 100%;
+  text-decoration: none;
+  width: 300px;
+  height: 150px;
+  line-height: 20px;
+  color: #D4D4D4;
+  list-style-type: decimal;
   text-decoration-color: #7cc529;
   text-decoration-line: none;
   text-decoration-style: solid;
   text-decoration-thickness: auto;
+}
+
+.post__sidebar a {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 300px;
+  position: relative;
+  margin: 0px 40px;
+  text-decoration-line: none;
+  color: #4d4d4d;
+
+
+}
+
+.most__read__main__title  {
+  display: flex;
+  position:relative;
+  flex-direction: row;
+  justify-content: start;
   text-size-adjust: 100%;
+  text-align: start;
+  padding-left: 3px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+  .post__sidebar a:hover {
+  
+    color:#b91c5d;
+
   
   
-} */
+  
+}
 
 /*******************
-* SHADOWN - FOLLOW *
+* SESSIONS SHADOWN *
 ********************/
+
+.section01{
+  display: block;
+  position: absolute;
+  text-align: right;
+  margin-left: 81%
+  
+  
+}
+
+.section_mentos{
+  display: block;
+  position: absolute;
+  margin-left: 82%
+}
+
+.section_mentos img{
+ width: 200px;
+ height: 540px;
+}
+.section_aviator{
+  display: block;
+  position: absolute;
+  margin-left: 82%
+}
+
+.section_aviator img{
+ width: 200px;
+ height: 540px;
+}
 
 .link-par-1  {
   display: flex;
-  align-items: center;
+  position:absolute;
+  flex-direction: column;
+  align-items:end;
   height: 100%;
-  margin: 0px auto;
-  padding: 0px 83px;
-  justify-content: flex-start;
+  margin-top: 10px;
+  padding: 0px 20px;
+  justify-content: space-evenly;
   transition: all 0.25s ease 0s;
   color: #790d9f;;
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   height: 56px;
-  line-height: 30px;
+  line-height: 100px;
   pointer-events: all;
   vertical-align: baseline;
+  text-align: center;
+  
+  
 }
 
 .link-par-1:hover {
   
   color:#1bbbdf;
   animation-delay: 2s;
+  
   
   
 }
@@ -296,6 +403,7 @@ body {
   padding-left: 16px;
   flex: 1 1 auto;
   color:#c10f95;
+  
 }
 
 .link-par-1 a:hover {
@@ -307,6 +415,7 @@ body {
   
 }
 
+<<<<<<< HEAD
 .footer-social .footer-icons a img{
   display: inline-block;
   justify-content: flex;
@@ -324,3 +433,101 @@ body {
   padding: 5px;
   font-size: 14px;
 }
+=======
+.section_harvard img{
+  display: flex;
+  justify-content: left;
+  align-items: end;
+  margin-top: 35px;
+  width: 900px;
+}
+
+.section_logo{
+  display: block;
+  position: absolute;
+  margin-left: 112%
+}
+
+.section_logo img{
+  width: 500px;
+  opacity: 50%;
+  position: relative;
+  animation: transicao infinite 5s;
+  opacity: 0.6;
+}
+
+
+ @keyframes transicao {
+   25% {
+     opacity: 2;
+     transform: scale(1.1,1.1);
+   }
+   50% {
+     opacity: 1;
+   }
+   
+ }
+
+ .logoIndex:nth-child(1){
+  animation-delay: 5s;
+}
+
+/*****************
+* CSS - BUSINESS *
+******************/
+
+.fotoBusiness-01 img{
+  width: 855px;
+  height: 484px;
+  border-radius: 14px;
+
+  /***************
+  * FORMULARIO*
+  ****************/
+  
+}
+#div-centro {
+  font-size: x-large;
+  position: relative;
+  width: 400px;
+  left: 35%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #cb99ad;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 2px 2px 5px rgba(255, 148, 148, 0.2);
+}
+
+#div-centro #formulario {
+  display: block;
+  text-align: center;
+}
+input.cadastro{
+  font-size: larger;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: 155px;
+  height: 45px;
+}
+
+#div-dir img{
+  display: flex;
+  flex-direction: initial;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  
+}
+#div-esq img{
+  display: flex;
+  flex-direction: initial;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  font-size: medium;
+}
+>>>>>>> 31278ea0d0cb790059803fe7147985ad988e0ee6
