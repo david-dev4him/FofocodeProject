@@ -422,10 +422,10 @@ justify-content: baseline;
 .footer-social .footer-icons a img{
   display: inline-block;
   justify-content: flex;
-  width: 30;
-  height: 30;
+  width: 35;
+  height: 35;
   padding: 5px;
-  max-width: 35px;
+  max-width: 40px;
 }
 .footer-social .copyright{
   width: 100%;
@@ -435,6 +435,10 @@ justify-content: baseline;
   color: dimgray;
   padding: 5px;
   font-size: 14px;
+}
+.footer-social .footer-text{
+  color: rgb(0, 0, 0);
+  justify-content: flex;
 }
 .section_harvard img{
   display: flex;
