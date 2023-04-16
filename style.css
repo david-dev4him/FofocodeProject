@@ -67,9 +67,10 @@ a {
   color: var(--clr-blue-royal);
 }
 
-.logoH1 span:second-child {
+/*.logoH1 span:second-child {
   color: var(--clr-lgt-purple);
-}
+}*/
+
 .logoH1 span:last-child {
   font-size: 12px;
   letter-spacing: normal;
@@ -200,8 +201,8 @@ justify-content: baseline;
 
 .banner_ads_horizontal{
   display: flex;
-  justify-content: center;
-  height: 258px;
+  justify-content: right;
+  height: 228px;
 }
 
 .banner_ads {
@@ -421,14 +422,13 @@ justify-content: baseline;
 .footer-social .footer-icons a img{
   display: inline-block;
   justify-content: flex;
-  width: 35;
-  height: 35;
+  width: 35px;
+  height: 35px;
   padding: 5px;
   max-width: 40px;
 }
 .footer-social .footer-text{
   color: var(--clr-purple);
-  justify-content: flex;
 }
 .footer-social .footer-text2 a{
   color: var(--clr-purple);
