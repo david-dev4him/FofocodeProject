@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Home Page</title>
 	<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
 	<header class="header">
-		
 		<nav>
 			<ul class="menu">
 				<li>
@@ -33,126 +29,141 @@
 				<li>
 					<a href="forms.html">Cadastre-se</a>
 				</li>
-			</ul>					
 		</nav>
-
-	</header>
+	</header><!--Header-->
 	<div class="page_title">
 		<a href="index.html">Home Page</a>
 	</div>
 	<div class="banner_ads_horizontal">
 		<!-- Logo-header => Fofocode -->
-		<div class="logo_fofocode">
-			<img class="logoIndex" src="../FofocodeProject/assets/logo-fofocode2.png" alt="logo_fofocode">
+		<img class="logo_index" src="./assets/logo.png" alt="logo_fofocode">
+		<div class="bg_charge">
+			<img src="./assets/fofoca-girl.jpg" alt="fofoca-charge1">
+			<img src="./assets/fofoca-desenho.jpg" alt="fofoca-charge2">
+			<img src="./assets/fofoca-desenho2.png" alt="fofoca-charge2">
 		</div>
-		<img src="./assets/fofoca-girl.jpg" alt="fofoca-charge1">
-		<img src="./assets/fofoca-desenho.jpg" alt="fofoca-charge2">
-		<img src="./assets/fofoca-desenho2.png" alt="fofoca-charge2">
 	</div>
 	<br>
-
-	<section class="section_harvard">
-		<!-- Aside harvard -->
-		<div class="pub_harvard">
-			<img src="./assets/banner_publisher/713639461767899889.jpg" alt="publicidade-harvard">
+	<section class="section_pub__index">
+		<!-- Aside BGPactual -->
+		<div class="pub_index">
+			<img src="./assets/gifs/btgPactual.gif" alt="publicidade-harvard">
 		</div>
 	</section>
-
-	<main class="main_index">
-
-		<!-- Aside Links Acompanhe -->
-		<section class="section01">
-		
-		<div class="link-par-1">
-		<span class="link-par-2">Acompanhe Tudo:</span>
-		<div class="link-par-"><a href="business.html" class="link-par-4">Business</a>
-			<a href="destaques.html" class="link-par-5">Destaques</a>
-			<a href="news.html" class="link-par-6">Últimas Fofocas</a>
-			<a href="forms.html" class="link-par-7">Faça seu Cadastro</a>
-			
-		</div>
-		</div>
-		</section>
-		<article>
-	
-			<!-- Fernanda padrão -->
-
-							<div class="divcentral1" style="margin: 0 auto; width: 1225px">
-							<div class="div_interna" style="width: 28%;">
-								<div class="manchetes">
-									<!---->
-									<div class="item">
-										<img src="./assets/articles/Design-museu-AI.webp">
-										<a class="titulo" href="materia01.html">Apreciadores de arte se revoltam
-											após museu trocar quadro famoso</a><br>
-									</div>
-									<!---->
-									<div class="container">
-										
-									<div>
-									<div class="item">
-										<img src="./assets/WhatsApp-Image-2022-08-26-at-09.35.28-e1661518007934.webp">
-										<a class="titulo" href="./business.html">Segredos do sucesso de Camila Farani!</a><br>
-									</div>
-									<!---->
-									<div class="item">
-										<img src="./assets/baixados.webp">
-										<a class="titulo" href="https://exame.com/negocios/demissoes-no-unicornio-loft-manda-mais-300-embora-cortes-chegam-a-mil/" target="_blank">Demissões no unicórnio: Loft manda mais 340 embora; cortes superam 1.100</a><br>
-									</div>
-									<!---->
-									<div class="item">
-										<img src="./assets/63caf560-be50-11ed-a9bc-7599d87091be.jpg">
-										<a class="titulo" href="https://www.bbc.com/portuguese/articles/c727285jy09o" target="_blank">Por que bilionários chineses estão desaparecendo misteriosamente ?</a><br>
-									</div>
-									<!---->
-								</div>
-							</div>
-					
-				
+<section id="destaques_index" class="destaques_index">
+	<h2 class="section__titulo">Destaques <span class="section__titulo--destaque">Tech</span></h2>
+	<div class="destaques-class">
+		<a href="https://g1.globo.com/tecnologia/noticia/2023/03/31/instagram-apresenta-instabilidade-nesta-sexta-feira.ghtml" target="_blank">
+			<img src="./assets/Destaques.jpg" alt="Destaques" class="destaques__img">
+			<h3 class="destaques-texto__titulo">Instagram diz que resolveu falha que impedia acesso ao aplicativo</h3>
+			<p class="destaques-texto">"Hoje mais cedo, um problema técnico fez com que algumas pessoas tivessem dificuldade para acessar o Instagram. Resolvemos a questão o mais rápido possível para todos os afetados e pedimos desculpas por qualquer inconveniente", afirmou um porta-voz da Meta, dona do Instagram.</p></a>
+		</div><!--Destaques index-->
+		<br>
+	<div class="destaques-link__interno">
+		<a class="link-title__destaques" href="destaques.html">
+		<h4 class="mais_destaques" alt="link interno para destaques">Galeria de Notícias</h4></a>
+	</div><!--Link âncora para Detalhes de notícias-->
+</section>
+<section id="sociais">
+	<h2 class="section__titulo">HeadLines <span class="section__titulo--destaque"></span></h2>
+	<div class="sociais_art"></div><!--Fofoca Headlines-->
+</section>
+<section id="boxes"><!--Box das notícias-->
+	<div class="box_news">
+		<article class="box_art">
+			<a href="materia01.html" target="_blank">
+			<img src="./assets/articles/Design-museu-AI.webp" alt="museu quadro" target="_blank" class="box_thumb">
+			<!--Box 1 - Apreciadores de Arte-->
+			<div class="box__info">
+				<div class="info-header">
+					<h3 class="info-header__titulo">De gigante dos potes ao risco de falência: o que explica o derretimento da Tupperware</h3>
+					<p class="info-header__text">“Museu Mauritshuis, nos Países Baixos, criou polêmica ao selecionar uma obra feita por inteligência artificial para substituir uma famosa pintura".</p>
+				</div> <!--info-header-->
+			</div>
+		</a>
 		</article>
-
-
-		</div>
-
-	</main>
-
-
-
-
-	<!-- Footer Banner -->
-	<div class="banner_footer">
-
-		<img src="./assets/gifs/btgPactual.gif" alt="banco-btg-pactual-publish">
+		<!---->
+		<article class="box_art">
+			<a href="https://www.cnnbrasil.com.br/economia/de-gigante-dos-potes-ao-risco-de-falencia-o-que-explica-o-derretimento-da-tupperware/" alt="tupperware news" target="_blank">
+			<img src="./assets/tupperware-caida-ventas.jpg" alt="tupperware news" target="_blank" class="box_thumb">
+			<!--Box 2 - Tupperware-->
+		<div class="info-header">
+			<h3 class="info-header__titulo">De gigante dos potes ao risco de falência: o que explica o derretimento da Tupperware</h3>
+			<p class="info-header__text">“Eles tiveram muita dificuldade para se adaptar ao longo dos anos, ao mesmo tempo que surgiram novos concorrentes e opções. A empresa não conseguiu diversificar e ampliar a forma que vende seu produto".</p>
+		</div> <!--info-header-->
+		</a>
+		</article>
+		<!---->
+		<article class="box_art">
+			<a href="https://exame.com/negocios/demissoes-no-unicornio-loft-manda-mais-300-embora-cortes-chegam-a-mil/" alt="Loft unicórnio" target="_blank">
+			<img src="./assets/baixados.webp" alt="Loft Unicórnio" target="_blank" class="box_thumb">
+			<!--Box 3 - Loft-->
+		<div class="info-header">
+			<h3 class="info-header__titulo">Demissões no unicórnio: Loft manda mais 340 embora; cortes superam 1.100</h3>
+			<p class="info-header__text">“A Loft, unicórnio do mercado imobiliário, ampliou os cortes no quadro de funcionários. Nesta sexta-feira, 3, a empresa demitiu 340 colaboradores,  cerca de 15% do quadro de 2.200 pessoas, confirmou a empresa à EXAME."</p>
+		</div> <!--info-header-->
+		</a>
+		</article>
+		<!---->
+		<article class="box_art">
+			<a href="https://www.bbc.com/portuguese/articles/c727285jy09o" alt="tupperware news" target="_blank">
+			<img src="./assets/63caf560-be50-11ed-a9bc-7599d87091be.jpg" alt="biolionários chineses" target="_blank" class="box_thumb">
+			<!--Box 4 - Bilionários Chineses-->
+		<div class="info-header">
+			<h3 class="info-header__titulo">Por que bilionários chineses estão desaparecendo misteriosamente</h3>
+			<p class="info-header__text">“O fundador da China Renaissance Holdings — com uma lista de clientes que inclui as gigantes Tencent, Alibaba e Baidu — é visto como um magnata no setor de tecnologia do país.".</p>
+		</div> <!--info-header-->
+		</a>
+		</article>
+		<!---->
+		<article class="box_art">
+			<a href="https://jovempan.com.br/noticias/economia/luiza-trajano-retorna-a-lista-de-bilionarios-da-forbes-apos-magalu-valorizar-mais-de-65-no-ibovespa.html" alt="Maganize Luiza" target="_blank">
+			<img src="./assets/Luiza.jpg" alt="Maganine Luiza" target="_blank" class="box_thumb">
+			<!--Box 5 - Maganize Luiza-->
+		<div class="info-header">
+			<h3 class="info-header__titulo">Luiza Trajano retorna à lista de bilionários da Forbes após Magalu valorizar mais de 65% no Ibovespa</h3>
+			<p class="info-header__text">“Trajano viu sua fortuna crescer no último mês após ações da companhia Magazine Luiza, da qual é fundadora, registrarem alta superior a 65%, em decorrência da crise vivida pela concorrente Americanas.".</p>
+		</div> <!--info-header-->
+		</a>
+		</article>
+		<!---->
+		<article class="box_art">
+			<a href="./business.html" alt="Camila Farani" target="_blank">
+			<img src="./assets/camila-farani-1024x576.webp" alt="Camila Farani-foto" target="_blank" class="box_thumb">
+			<!--Box 6 - Camila Farani-->
+		<div class="info-header">
+			<h3 class="info-header__titulo">Camila Farani: da tabacaria familiar ao Shark Tank Especialista em tecnologia e startups</h3>
+			<p class="info-header__text">“Camila Farani é uma investidora brasileira conhecida por ser cofundadora da G2 Capital, empresa que foca seus investimentos em empresas ligados ao campo da tecnologia".</p>
+		</div> <!--info-header-->
+		</a>
+		</article>
 	</div>
-
+</section>
 	<!-- Footer Social e Copyright-->  
-
-	<div class="social">
-		<footer class="footer-social">
-		  <div class="footer-icons">
-  
-			<h5 class="footer-text">Siga-nos nas redes sociais:</h5>		
+<div class="social">
+	<footer class="footer-social">
+		<div class="footer-icons">
+	<h5 class="footer-text">Siga-nos nas redes sociais:</h5>		
 				<a href="https://www.instagram.com/soulcodeacademy/" target="_blank">
-			  <img src="../FofocodeProject/assets/instagram.png" alt="instagram"></a>
-			  
+				<img src="./assets/instagram.png" alt="instagram"></a>
+				
 			<a href="https://www.linkedin.com/company/soulcodeacademy/" target="_blank">
-			  <img src="../FofocodeProject/assets/linkedin.png" alt="linkedin"></a>
-			  
+				<img src="./assets/linkedin.png" alt="linkedin"></a>
 			<a href="https://www.youtube.com/@SoulCodeAcademy" target="_blank">
-			  <img src="../FofocodeProject/assets/youtube.png" alt="youtube"></a>
-  
-			<h5 class="footer-text">Nosso site:</h5>
-			  <a href="https://soulcode.com" target="_blank" rel="noopener noreferrer">www.soulcode.com.br</a>
-		  </div>    
-		  <div class="copyright">
-		</br>
-		</br>	
-			  <hr>
-			  <p>&copy;Copyright 2023 FofoCode - Todos os direitos reservados.</p> 
-		  </div>
-		</footer>
-	  </div>
-
+				<img src="./assets/youtube.png" alt="youtube"></a>
+	<h5 class="footer-text">Nosso site:</h5>
+				<a href="https://soulcode.com" target="_blank"  class="ac_footer" rel="noopener noreferrer">www.soulcode.com.br</a>
+		</div>    
+		<div class="copyright">
+			<br>
+			<hr>
+			<div class="button__menu">
+							<button>
+						<a href="./index.html" alt="voltar_index">Menu principal</a>
+					</button>
+					</div>
+				<p>&copy;Copyright 2023 FofoCode - Todos os direitos reservados.</p> 
+		</div>
+	</footer>
 </body>
-
 </html>
